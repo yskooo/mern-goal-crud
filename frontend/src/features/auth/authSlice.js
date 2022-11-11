@@ -30,7 +30,7 @@ export const register = createAsyncThunk(
     }
 )
 
-// Loginr user
+// Login user
 export const login = createAsyncThunk(
     'auth/login',
     async(user, thunkAPI) => {
