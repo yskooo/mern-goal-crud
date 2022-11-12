@@ -9,7 +9,7 @@ import Register from './pages/Register';
 function App() {
     return ( 
       <>
-        <Router>
+        <Router basename='/'>
           <div className="container">
               <Header/>
            <Routes>
@@ -20,6 +20,7 @@ function App() {
           </div>
         </Router>
         <ToastContainer/>
+  
       </>
     );
 }
